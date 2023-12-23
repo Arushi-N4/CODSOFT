@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Montserrat:wght@800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main {
+    background-image: linear-gradient(to top, #faffe6, #f7fddd, #f4fbd3, #f2f8ca, #eff6c0);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+nav h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    color: #708006;
+    margin-bottom: 10px;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
+    letter-spacing: 1px;
+
+}
+
+nav li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+    font-family: Montserrat;
+    font-size: 1.4rem;
+    color: #323a02;
+}
+
+#main .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    max-width: 1700px;
+    margin: 0 auto;
+}
+
+.content {
+    flex: 1;
+    padding: 100px;
+}
+
+#main img {
+    width: 70%;
+    height: 70%;
+
+}
+
+#main h1 {
+    font-family: Montserrat;
+    font-size: 4.2rem;
+    color: #303802;
+}
+
+#main .container h3 {
+    font-family: Montserrat;
+    color: #535d14;
+    margin-top: 20px;
+    font-size: 2.5rem;
+}
+
+#main .container h3 span {
+    color: #92a708;
+}
+
+.content button {
+    margin-top: 25px;
+    padding: 20px;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    border-radius: 50px;
+    color: #f3fdad;
+    background-color: #404a05;
+    border: none;
+}
+
+#about {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#about h2 {
+    font-family: Montserrat;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    color: #4e5a02;
+}
+
+#about p {
+    font-size: large;
+    line-height: 2rem;
+    width: 890px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Poppins';
+    color: #282e01;
+}
+
+#about h3 {
+    font-family: Montserrat;
+    font-weight: bolder;
+    font-size: 2rem;
+    color: #404a05;
+
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    margin: 20px 0;
+}
+
+
+label {
+    display: block;
+    font-size: 18px;
+    color: #555;
+    font-family: 'Poppins';
+    font-weight: 700;
+    margin: 5px 0 2px;
+}
+
+
+progress {
+    width: 55%;
+    margin: auto;
+    height: 20px;
+    border: none;
+}
+
+progress::-webkit-progress-bar {
+    background-color: #d4cece;
+    border-radius: 50px;
+}
+
+progress::-webkit-progress-value {
+    background-color: #c3c609;
+    border-radius: 50px;
+}
+
+#project {
+    background-image: linear-gradient(to top, #ebf5c4, #ecf5c3, #edf6c2, #eef6c1, #eff6c0);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#project h2 {
+    text-align: center;
+    font-family: Montserrat;
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+
+#project .row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-gap: 30px;
+    padding: 20px;
+}
+
+#project .row .card {
+    background: rgb(245, 245, 242);
+    padding: 25px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+}
+
+#project .card summary {
+    font-family: Montserrat;
+    font-size: 1.2rem;
+    color: #4e4f03;
+}
+
+#project .card p {
+    font-family: 'Poppins';
+    line-height: 1.5rem;
+    margin-top: 10px;
+}
+
+#footer {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.social i {
+    padding: 15px;
+    border-radius: 50%;
+    background: #edf1d7;
+    margin: 15px;
+    font-size: 2rem;
+    color: rgb(59, 78, 2);
+    opacity: 0.9;
+}
+
+.contact p {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    line-height: 1.5rem;
+    padding-bottom: 20px;
+    font-size: 1.1rem;
+}
+
+.contact span {
+    font-family: 'M PLUS 1p', sans-serif;
+}
+
+.copy {
+    background-color: #f6f7c4;
+    padding: 10px;
+    color: #404a05;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
