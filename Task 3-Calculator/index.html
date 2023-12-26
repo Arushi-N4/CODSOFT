@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="icon" href="cal-icon.png">
+    <link rel="stylesheet" href="styles.css">
+    <script src="cal.js"></script>
+</head>
+
+<body>
+
+    <div class="box">
+        <div class="calculator">
+            <div class="output">
+                <div class="user-input" id="user-input">0</div>
+                <div class="result" id="result">0</div>
+            </div>
+            <button class="btn clear" onclick="clearInput()">CR</button>
+            <button class="btn" onclick="appendOperator('/')">/</button>
+            <button class="btn" onclick="appendToInput('7')">7</button>
+            <button class="btn" onclick="appendToInput('8')">8</button>
+            <button class="btn" onclick="appendToInput('9')">9</button>
+            <button class="btn" onclick="appendOperator('+')">+</button>
+            <button class="btn" onclick="appendToInput('4')">4</button>
+            <button class="btn" onclick="appendToInput('5')">5</button>
+            <button class="btn" onclick="appendToInput('6')">6</button>
+            <button class="btn" onclick="appendOperator('-')">-</button>
+            <button class="btn" onclick="appendToInput('3')">3</button>
+            <button class="btn" onclick="appendToInput('2')">2</button>
+            <button class="btn" onclick="appendToInput('1')">1</button>
+            <button class="btn" onclick="appendOperator('*')">*</button>
+            <button class="btn" onclick="appendToInput('.')">.</button>
+            <button class="btn" onclick="appendToInput('0')">0</button>
+            <button class="btn equal" onclick="calculateResult()">=</button>
+        </div>
+    </div>
+</body>
+
+</html>
